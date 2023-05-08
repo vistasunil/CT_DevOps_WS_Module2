@@ -31,8 +31,8 @@
 ## _Complete below exercises_
 
 ### Exercise 1: Complete below tasks as part of this exercise:
-a)	Setup a GitHub account and create one repository inside it named **devopsdemo**
-b)	Clone this repo **devopsdemo** to your GCP compute instance
+A.	Setup a GitHub account and create one repository inside it named **devopsdemo**
+B.	Clone this repo **devopsdemo** to your GCP compute instance
 c)	cd to the repo directory you just cloned
 d)	Check the branch name you are checked out currently. It should be main by default.
 e)	Add two files using vim editor as below:
