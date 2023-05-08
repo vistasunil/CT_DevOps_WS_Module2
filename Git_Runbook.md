@@ -38,11 +38,11 @@ A) Setup a GitHub account and create one repository inside it named 'devopsdemo'
 
 i. Open https://github.com/ in browser and click on signup:
 
-![](RackMultipart20230508-1-iwyavi_html_c4e69d82722015bb.png)
+![image](https://user-images.githubusercontent.com/37858762/236856920-69b5b091-8803-4f1b-a513-2ba7632f8eb8.png)
 
 ii. Fill the form by choosing one username, entering email and password for the Github account. Solve the puzzle to verify the account
 
-![](RackMultipart20230508-1-iwyavi_html_8a38da1b3e0de9ca.png)
+![image](https://user-images.githubusercontent.com/37858762/236856881-fc24767a-5ef0-4aeb-bb71-a2102ce2b485.png)
 
 iii. Once all done, click on create account
 iv. You must receive email from Github for account verification with verification link. Complete the verification to complete registration process.
@@ -52,23 +52,37 @@ v. Once registration is complete, login to the Github account and generate Perso
 
 vi. In the upper-right corner of any page, click your profile photo, then click  **Settings**.
 
-![Picture 1](RackMultipart20230508-1-iwyavi_html_ac1044079ba43f2b.gif)
+![image](https://user-images.githubusercontent.com/37858762/236856840-51da035f-1565-4b7c-8581-19cc4b8b25f4.png)
 
 vii. In the left sidebar, click  **Developer settings**.
 
-![Picture 2](RackMultipart20230508-1-iwyavi_html_737539572c93785d.gif)
+![image](https://user-images.githubusercontent.com/37858762/236856813-7482cff7-f481-42d7-8a6d-ac95db286f63.png)
 
-viii. In the left sidebar, click  **Personal access tokens**. ![Picture 3](RackMultipart20230508-1-iwyavi_html_1a0fa839d2add4f8.gif)
-ix. Click  **Generate new token**. ![](RackMultipart20230508-1-iwyavi_html_507bdc0a6e555560.png)
-x. Give your token a descriptive name. ![](RackMultipart20230508-1-iwyavi_html_f0db5b759f3b6697.png)
-xi. To give your token an expiration, select the  **Expiration**  drop-down menu, then click a default or use the calendar picker. ![](RackMultipart20230508-1-iwyavi_html_c484f6055090c0a8.png)
+viii. In the left sidebar, click  **Personal access tokens**. 
+
+![image](https://user-images.githubusercontent.com/37858762/236856762-bdd4e233-e263-48b9-995d-f71fe19f2f72.png)
+
+ix. Click  **Generate new token**. 
+
+![image](https://user-images.githubusercontent.com/37858762/236856728-456de00b-949f-47a3-a552-fd32f6ec41a7.png)
+
+x. Give your token a descriptive name. 
+
+![image](https://user-images.githubusercontent.com/37858762/236856682-f4b78aab-3686-4fe4-87ea-b966bc8cbd3c.png)
+
+xi. To give your token an expiration, select the  **Expiration**  drop-down menu, then click a default or use the calendar picker. 
+
+![image](https://user-images.githubusercontent.com/37858762/236856618-89e05fa0-0a96-48cc-bcbf-868c79c4b8c8.png)
+
 xii. Select the scopes, or permissions, you'd like to grant this token. To use your token to access repositories from the command line, select  **repo**.
 
-![](RackMultipart20230508-1-iwyavi_html_40c5e6ec14916e24.png)
+![image](https://user-images.githubusercontent.com/37858762/236856575-7b536517-e9a5-41b6-a6cb-340fab9fe1ee.png)
 
-xiii. Click  **Generate token**. ![](RackMultipart20230508-1-iwyavi_html_aa72ea36c653f7c5.png)
+xiii. Click  **Generate token**. 
 
-![Picture 9](RackMultipart20230508-1-iwyavi_html_28074feb005a14f5.gif)
+![image](https://user-images.githubusercontent.com/37858762/236856526-015ae176-1528-4b97-adf6-13ea2f97dc59.png)
+
+![image](https://user-images.githubusercontent.com/37858762/236856499-ac95058d-56fc-485f-a160-175f7e5704ac.png)
 
 _**Warning** :  **Copy the token generated** and save it somewhere. Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs._
 
@@ -83,17 +97,17 @@ Password: <your_token>
 
 xiv. Create repository now by clicking on 'New repository':
 
-![](RackMultipart20230508-1-iwyavi_html_8a82e30422835d3b.png)
+![image](https://user-images.githubusercontent.com/37858762/236856439-e833cbe5-cad7-436f-8519-c6a0249cc281.png)
 
 xv. Fill the repo name as **devopsdemo** and click create repo as below:
 
-![](RackMultipart20230508-1-iwyavi_html_e6d0102f61b97daf.png)
+![image](https://user-images.githubusercontent.com/37858762/236856403-5e938f74-9482-4abf-8315-9ccb30340532.png)
 
 xvi. Once repo is created, you will see page like below:
 
-![](RackMultipart20230508-1-iwyavi_html_2be76b6d71ffd626.png)
+![image](https://user-images.githubusercontent.com/37858762/236856323-2df61357-2602-401b-abb4-18ca4fc11e34.png)
 
-xvii. Copy the repo clone URL under code and go to **task b**.
+xvii. Copy the repo clone URL under code and go to **task B**.
 
 B) Clone this repo 'devopsdemo' to your GCP compute instance
 
@@ -105,7 +119,7 @@ Login to your Ubuntu GCP instance with ubuntu user and run below command to clon
 
 `git clone https://github.com/vistasunil/devopsdemo.git`
 
-![](RackMultipart20230508-1-iwyavi_html_4712f9a8b79a6ad0.png)
+![image](https://user-images.githubusercontent.com/37858762/236856262-b181173c-45dc-4e5b-91fb-fd4ef7709171.png)
 
 C) cd to the repo directory you just cloned
 
@@ -113,7 +127,7 @@ C) cd to the repo directory you just cloned
 
 `cd devopsdemo`
 
-![](RackMultipart20230508-1-iwyavi_html_b725201849f00a09.png)
+![image](https://user-images.githubusercontent.com/37858762/236856219-e3a23d9b-ac68-41fe-8c80-00d53e821176.png)
 
 D) Check the branch name you are checked out currently. It should be **master** by default.
 
@@ -121,7 +135,7 @@ D) Check the branch name you are checked out currently. It should be **master** 
 
 `git branch`
 
-![](RackMultipart20230508-1-iwyavi_html_42b753f3f1fb2353.png)
+![image](https://user-images.githubusercontent.com/37858762/236856187-a7f1277b-d548-4d0a-a59f-3cf21751aa5f.png)
 
 E). Add two files using vim editor as below:
   1. File1.txt
@@ -133,7 +147,7 @@ E). Add two files using vim editor as below:
 
 `vim File2.txt`
 
-![](RackMultipart20230508-1-iwyavi_html_97016980fc1382fd.png)
+![image](https://user-images.githubusercontent.com/37858762/236856150-fe3c3266-38a9-47c9-b272-4e0576ae63c3.png)
 
 F) Check the git status
 
@@ -141,7 +155,7 @@ F) Check the git status
 
 `git status`
 
-![image](https://user-images.githubusercontent.com/37858762/236855760-644c6d6b-1311-4e2f-a914-dbec3e022c93.png)
+![image](https://user-images.githubusercontent.com/37858762/236856113-d091db23-31cd-4fc4-9795-3a8d474d1789.png)
 
 G) Add and Commit the changes to the repo
 
@@ -149,7 +163,7 @@ G) Add and Commit the changes to the repo
 
 `git add .`
 
-![image](https://user-images.githubusercontent.com/37858762/236855711-21ef3c3a-c4aa-4b6c-a5ac-8a469b1c1db8.png)
+![image](https://user-images.githubusercontent.com/37858762/236856090-9c8c03c2-773a-4c51-845f-7da357999f8f.png)
 
 `git commit -m 'My first commit'`
 
