@@ -41,9 +41,8 @@ d)	Check the branch name you are checked out currently. It should be main by def
 
 e)	Add two files using vim editor as below:
 
-  - i.	File1.txt
-  
-  - ii.	File2.txt
+  - iFile1.txt  
+  - iiFile2.txt
   
 f)	Check the git status 
 
@@ -59,8 +58,8 @@ b)	create a new branch with name **feature1**
 c)	Checkout to feature1 branch
 
 d)	Add two files using vim editor as below:
-  - i.	File3.txt
-  - ii.	File4.txt
+  - File3.txt
+  - File4.txt
 
 e)	Check status, add files, commit and push to github account
 
