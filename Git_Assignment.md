@@ -40,7 +40,6 @@ c)	cd to the repo directory you just cloned
 d)	Check the branch name you are checked out currently. It should be main by default.
 
 e)	Add two files using vim editor as below:
-
   - iFile1.txt  
   - iiFile2.txt
   
