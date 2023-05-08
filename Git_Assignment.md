@@ -42,6 +42,7 @@ d)	Check the branch name you are checked out currently. It should be main by def
 e)	Add two files using vim editor as below:
 
   i.	File1.txt
+  
   ii.	File2.txt
   
 f)	Check the git status 
