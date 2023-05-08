@@ -32,7 +32,7 @@
 
 ### Exercise 1: Complete below tasks as part of this exercise:
 
-A) Setup a GitHub account and create one repository inside it named 'devopsdemo'
+a) Setup a GitHub account and create one repository inside it named 'devopsdemo'
 
 ### _Solution:_
 
@@ -109,7 +109,7 @@ xvi. Once repo is created, you will see page like below:
 
 xvii. Copy the repo clone URL under code and go to **task B**.
 
-B) Clone this repo 'devopsdemo' to your GCP compute instance
+b) Clone this repo 'devopsdemo' to your GCP compute instance
 
 ### _Solution:_
 
@@ -121,7 +121,7 @@ Login to your Ubuntu GCP instance with ubuntu user and run below command to clon
 
 ![image](https://user-images.githubusercontent.com/37858762/236856262-b181173c-45dc-4e5b-91fb-fd4ef7709171.png)
 
-C) cd to the repo directory you just cloned
+c) cd to the repo directory you just cloned
 
 ### _Solution:_
 
@@ -129,7 +129,7 @@ C) cd to the repo directory you just cloned
 
 ![image](https://user-images.githubusercontent.com/37858762/236856219-e3a23d9b-ac68-41fe-8c80-00d53e821176.png)
 
-D) Check the branch name you are checked out currently. It should be **master** by default.
+d) Check the branch name you are checked out currently. It should be **master** by default.
 
 ### _Solution:_
 
@@ -137,7 +137,7 @@ D) Check the branch name you are checked out currently. It should be **master** 
 
 ![image](https://user-images.githubusercontent.com/37858762/236856187-a7f1277b-d548-4d0a-a59f-3cf21751aa5f.png)
 
-E). Add two files using vim editor as below:
+e). Add two files using vim editor as below:
   1. File1.txt
   2. File2.txt
 
@@ -149,7 +149,7 @@ E). Add two files using vim editor as below:
 
 ![image](https://user-images.githubusercontent.com/37858762/236856150-fe3c3266-38a9-47c9-b272-4e0576ae63c3.png)
 
-F) Check the git status
+f) Check the git status
 
 ### _Solution:_
 
@@ -157,7 +157,7 @@ F) Check the git status
 
 ![image](https://user-images.githubusercontent.com/37858762/236856113-d091db23-31cd-4fc4-9795-3a8d474d1789.png)
 
-G) Add and Commit the changes to the repo
+g) Add and Commit the changes to the repo
 
 ### _Solution:_
 
@@ -169,7 +169,7 @@ G) Add and Commit the changes to the repo
 
 ![image](https://user-images.githubusercontent.com/37858762/236855677-7e72d46d-6204-4cc7-818e-551fa9dc0a60.png)
 
-H) Push the changes to the repo 'devopsdemo' to github account
+h) Push the changes to the repo 'devopsdemo' to github account
 
 ### _Solution:_
 
@@ -183,7 +183,7 @@ You will see files successfully pushed to Github account in the devopsdemo repo 
 
 ### Exercise 2: Complete below tasks as part of this exercise:
 
-A) cd to the repo directory 'devopsdemo' on the server
+a) cd to the repo directory 'devopsdemo' on the server
 
 ### _Solution:_
 
@@ -191,7 +191,7 @@ A) cd to the repo directory 'devopsdemo' on the server
 
 ![image](https://user-images.githubusercontent.com/37858762/236855581-6f0c16b4-da49-4193-a0b9-42ba4b6d7800.png)
 
-B) create a new branch with name **feature1**
+b) create a new branch with name **feature1**
 
 ### _Solution:_
 
@@ -199,7 +199,7 @@ B) create a new branch with name **feature1**
 
 ![image](https://user-images.githubusercontent.com/37858762/236855541-f541c60e-1d02-4c68-9437-f2e055deac6b.png)
 
-C) Checkout to feature1 branch
+c) Checkout to feature1 branch
 
 ### _Solution:_
 
@@ -207,7 +207,7 @@ C) Checkout to feature1 branch
 
 ![image](https://user-images.githubusercontent.com/37858762/236855499-5bc96802-330b-4e63-81dd-e4b6a14da98d.png)
 
-D) Add two files using vim editor as below:
+d) Add two files using vim editor as below:
   1. File3.txt
   2. File4.txt
 
@@ -225,7 +225,7 @@ You see four files now in **feature1** branch
 
 ![image](https://user-images.githubusercontent.com/37858762/236855368-d6d1e39d-59ed-4a52-88d3-e57aefbcf7d3.png)
 
-E) Check status, add files, commit and push to github account
+e) Check status, add files, commit and push to github account
 
 ### _Solution:_
 
@@ -237,7 +237,7 @@ E) Check status, add files, commit and push to github account
 
 ![image](https://user-images.githubusercontent.com/37858762/236855301-f97578bd-518e-4293-8de8-e754ad319533.png)
 
-F) Merge the changes in **feature1** branch to master branch
+f) Merge the changes in **feature1** branch to master branch
 
 ### _Solution:_
 
@@ -255,7 +255,7 @@ Now merge feature1 to main branch
 
 ![image](https://user-images.githubusercontent.com/37858762/236855156-92376691-c18b-41ee-95c5-b6731cc1a713.png)
 
-G) Check if all changes from **feature1** branch are available under master branch after merge.
+g) Check if all changes from **feature1** branch are available under master branch after merge.
 
 ### _Solution:_
 
