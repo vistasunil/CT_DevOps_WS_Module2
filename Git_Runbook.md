@@ -28,7 +28,7 @@
 
 <div align="right"> <img src=https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-icon-png-image_6315990.png width="20" height="20"> +91 98712 72900 </div>
 
-## _Find solutions to your assingment below:_
+## _Find solutions to Git assingment below:_
 
 ### Exercise 1: Complete below tasks as part of this exercise:
 
@@ -86,7 +86,7 @@ xiii. Click  **Generate token**.
 
 _**Warning** :  **Copy the token generated** and save it somewhere. Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs._
 
-### Example of using your access token instead of password, because password authentication is deprecated:
+**Example of using your access token instead of password, because password authentication is deprecated:**
 
 ```
 git push origin master
